@@ -1,0 +1,27 @@
+.bubble-wrap {
+  overflow: hidden;
+  height: 600px;
+}
+
+.bubbles {
+  position: relative;
+  background: salmon;
+}
+
+.bubble {
+  position: absolute;
+  width: 152px;
+  height: 152px;
+  border-radius: 50%;
+  box-shadow: 
+    0 15px 35px rgba(0, 0, 0, 0.1),
+    0 3px 10px rgba(0, 0, 0, 0.1);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+}
+body {
+  background: #E6EEF7;
+}
+
